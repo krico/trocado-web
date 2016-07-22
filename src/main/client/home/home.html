@@ -1,0 +1,4 @@
+<h1>Home</h1>
+<span>{{vm.currentAuth.displayName}} &lt;{{vm.currentAuth.email}}&gt;</span><br/>
+<div ng-if="vm.currentAuth.photoURL"><img ng-src="{{vm.currentAuth.photoURL}}"></div>
+<button ng-click="vm.logout()">Logout</button>
